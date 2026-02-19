@@ -48,8 +48,8 @@ export default function HomePage() {
           </div>
         </div>
         <div className="relative">
-          <div className="aspect-[4/3] bg-primary rounded-sm overflow-hidden border-4 md:border-8 border-white dark:border-primary shadow-2xl">
-            <img alt="Ranchordas Pagi" className="w-full h-full object-cover grayscale contrast-125 opacity-80" src="/assets/images.webp" />
+          <div className="bg-primary rounded-sm overflow-hidden border-4 md:border-8 border-white dark:border-primary shadow-2xl flex items-center justify-center p-4">
+            <img alt="Ranchordas Pagi" className="max-w-full max-h-96 object-contain grayscale contrast-125 opacity-80" src="/assets/images.webp" />
           </div>
           <div className="absolute -bottom-3 md:-bottom-6 -right-3 md:-right-6 bg-military-yellow p-3 md:p-8 text-primary font-black text-sm md:text-2xl uppercase tracking-tighter shadow-xl">
             1901 — 2013
