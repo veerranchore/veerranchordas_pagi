@@ -7,8 +7,8 @@ export default function Navigation() {
   return (
     <nav className="sticky top-0 z-50 w-full bg-primary border-b border-primary/20 px-2 xs:px-2 sm:px-3 md:px-4 lg:px-6 xl:px-8 2xl:px-10 py-1.5 xs:py-2 sm:py-2 md:py-2.5 lg:py-3 flex items-center justify-between shadow-md">
       <Link to="/" className="flex items-center gap-1 xs:gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-3 hover:opacity-80 transition-opacity">
-        <div className="text-military-yellow size-5 xs:size-5 sm:size-6 md:size-6 lg:size-7 xl:size-8 flex items-center justify-center">
-          <span className="material-symbols-outlined text-base xs:text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">military_tech</span>
+        <div className="size-5 xs:size-5 sm:size-6 md:size-6 lg:size-7 xl:size-8 rounded-full border-2 border-military-yellow flex items-center justify-center overflow-hidden bg-white/10">
+          <img src="/assets/logo.jpg" alt="Logo" className="w-full h-full object-cover" />
         </div>
         <h2 className="text-white text-[10px] xs:text-[11px] sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-black uppercase tracking-tighter">Ranchordas Pagi</h2>
       </Link>

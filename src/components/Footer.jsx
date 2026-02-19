@@ -7,7 +7,9 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="space-y-2 xs:space-y-2.5 sm:space-y-3 md:space-y-4">
             <div className="flex items-center gap-1.5 xs:gap-2 md:gap-3">
-              <span className="material-symbols-outlined text-military-yellow text-lg xs:text-xl sm:text-2xl md:text-2xl lg:text-3xl">military_tech</span>
+              <div className="size-8 xs:size-9 sm:size-10 md:size-11 lg:size-12 rounded-full border-2 border-military-yellow flex items-center justify-center overflow-hidden bg-white/10">
+                <img src="/assets/logo.jpg" alt="Logo" className="w-full h-full object-cover" />
+              </div>
               <h3 className="text-white text-[11px] xs:text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-black uppercase tracking-tighter">Ranchordas Pagi</h3>
             </div>
             <p className="text-white/70 text-[9px] xs:text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed font-medium">
