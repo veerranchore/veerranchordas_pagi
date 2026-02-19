@@ -10,7 +10,7 @@ export default function Footer() {
               <div className="size-8 xs:size-9 sm:size-10 md:size-11 lg:size-12 rounded-full border-2 border-military-yellow flex items-center justify-center overflow-hidden bg-white/10">
                 <img src="/assets/logo.jpg" alt="Logo" className="w-full h-full object-cover" />
               </div>
-              <h3 className="text-white text-[11px] xs:text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-black uppercase tracking-tighter">Ranchordas Pagi</h3>
+              <h3 className="text-white text-[11px] xs:text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-black uppercase tracking-tighter">Ranchor Pagi</h3>
             </div>
             <p className="text-white/70 text-[9px] xs:text-[10px] sm:text-xs md:text-sm lg:text-base leading-relaxed font-medium">
               Preserving the legacy of India's greatest desert scout and military hero.
@@ -63,7 +63,7 @@ export default function Footer() {
         {/* Bottom Footer */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-2 xs:gap-3 sm:gap-4 md:gap-6 text-center sm:text-left">
           <p className="text-white/40 text-[7px] xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-xs uppercase font-bold tracking-widest order-2 sm:order-1">
-            © 2024 Ranchordas Pagi Legacy Foundation. All Rights Reserved.
+            © 2024 Ranchor Pagi Legacy Foundation. All Rights Reserved.
           </p>
           <div className="flex flex-wrap justify-center sm:justify-end gap-2 xs:gap-2.5 sm:gap-3 md:gap-4 lg:gap-6 order-1 sm:order-2">
             <a href="#" className="text-white/40 hover:text-white/70 text-[7px] xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-xs uppercase font-bold tracking-widest transition-colors">Privacy</a>

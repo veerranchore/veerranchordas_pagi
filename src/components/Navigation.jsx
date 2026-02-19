@@ -10,7 +10,7 @@ export default function Navigation() {
         <div className="size-5 xs:size-5 sm:size-6 md:size-6 lg:size-7 xl:size-8 rounded-full border-2 border-military-yellow flex items-center justify-center overflow-hidden bg-white/10">
           <img src="/assets/logo.jpg" alt="Logo" className="w-full h-full object-cover" />
         </div>
-        <h2 className="text-white text-[10px] xs:text-[11px] sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-black uppercase tracking-tighter">Ranchordas Pagi</h2>
+        <h2 className="text-white text-[10px] xs:text-[11px] sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-black uppercase tracking-tighter">Ranchor Pagi</h2>
       </Link>
       
       {/* Desktop Menu */}
